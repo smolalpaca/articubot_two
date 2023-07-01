@@ -11,19 +11,19 @@
                 <param name="device">/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0</param>
                 <param name="baud_rate">57600</param>
                 <param name="timeout">1000</param>
-                <param name="enc_counts_per_rev">481</param>
+                <param name="enc_counts_per_rev">480</param>
             </hardware>
             <joint name="left_wheel_joint">
                 <command_interface name="velocity">
-                    <param name="min">-1</param>
-                    <param name="max">1</param>
+                    <param name="min">-10</param>
+                    <param name="max">10</param>
                 </command_interface>
                 <state_interface name="velocity"/>
                 <state_interface name="position"/>
             </joint>
             <joint name="right_wheel_joint">
                 <command_interface name="velocity">
-                    <param name="min">-1</param>
+                    <param name="min">-10</param>
                     <param name="max">10</param>
                 </command_interface>
                 <state_interface name="velocity"/>
@@ -39,16 +39,16 @@
             </hardware>
             <joint name="left_wheel_joint">
                 <command_interface name="velocity">
-                    <param name="min">-1</param>
-                    <param name="max">1</param>
+                    <param name="min">-10</param>
+                    <param name="max">10</param>
                 </command_interface>
                 <state_interface name="velocity"/>
                 <state_interface name="position"/>
             </joint>
             <joint name="right_wheel_joint">
                 <command_interface name="velocity">
-                    <param name="min">-1</param>
-                    <param name="max">1</param>
+                    <param name="min">-10</param>
+                    <param name="max">10</param>
                 </command_interface>
                 <state_interface name="velocity"/>
                 <state_interface name="position"/>
