@@ -51,11 +51,11 @@ diff_cont:
     # linear.x.max_jerk: NAN
     # linear.x.min_jerk: NAN
 
-      # angular.z.has_velocity_limits: true
+    # angular.z.has_velocity_limits: true
     # angular.z.has_acceleration_limits: false
     # angular.z.has_jerk_limits: false
-      # angular.z.max_velocity: 1
-      # angular.z.min_velocity: -1
+    # angular.z.max_velocity: 1
+    # angular.z.min_velocity: -1
     # angular.z.max_acceleration: NAN
     # angular.z.min_acceleration: NAN
     # angular.z.max_jerk: NAN
