@@ -7,18 +7,18 @@ joy_node:
 teleop_node:
   ros__parameters:
     axis_linear:
-      x: 7
+      x: 4
     scale_linear:
-      x: 1.5 
+      x: 0.5 
     scale_linear_turbo:
-      x: 2.0
+      x: 3.0
 
     axis_angular:
-      yaw: 6
+      yaw: 3
     scale_angular:
-      yaw: 4.0
+      yaw: 0.5
     scale_angular_turbo:
-      yaw: 6.0
+      yaw: 3.0
 
     enable_button: 4
     enable_turbo_button: 5
