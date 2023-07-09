@@ -9,6 +9,7 @@ teleop_node:
     axis_linear:
       x: 7
     scale_linear:
+      x: 1.0 
       x: 0.5 
     scale_linear_turbo:
       x: 3.0
